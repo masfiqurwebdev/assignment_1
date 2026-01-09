@@ -72,9 +72,14 @@ a{
     color: #469165;
     display: flex;
     align-items: center;
-    gap: 3px;
+    justify-content: space-between;
+    padding: 8px 12px;
+    font-size: 16px;
     border-radius: 50px;
-    margin-bottom: 16px;
+}
+.early-btn img{
+    margin-right: 10px;
+    
 }
 .hero h1{
     font-size:64px ;
