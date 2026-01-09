@@ -10,6 +10,9 @@
 .p-120{
     padding: 0 120px;
 }
+.mb-120{
+    margin-bottom: 120px;
+}
 .btn{
     font-size: 16px;
     font-weight: 500;
@@ -93,6 +96,111 @@ a{
     font-size: 18px;
     margin-bottom: 32px;
 }
-.hero-btns{
+.hero-btns {
+    display: flex;
     gap: 16px;
+}
+
+/* banner styling */
+.banner{
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+}
+.banner-top{
+    margin-top: 22px;
+    margin-bottom: 44px;
+}
+.banner-top h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.banner-top p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card{
+    padding:24px ;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.32);
+    height: 300px;
+    width: 322px;
+    border-radius: 5px;
+
+}
+.card img{
+    margin-top: 36px;
+    margin-bottom: 16px;
+    width: 60px;
+}
+.card h3{
+    color: #001931;
+    font-size: 24;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.card p{
+    color: #627382;
+    font-size: 16px;
+}
+
+
+/* idea stylintg */
+.idea{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.idea-left img{
+    width: 600px;
+}
+.idea-right .idea-sub-heading{
+    color: #30b868;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.idea-right .idea-heading{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.idea-right .idea-des{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.idea-right .idea-list{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.idea-right .idea-list li{
+    margin-bottom:16px ;
+}
+
+/* think stylint */
+.think{
+    background: #f7f6f2;
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 120px;
 }
